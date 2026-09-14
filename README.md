@@ -6,7 +6,7 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | Grid Operations Intelligence |
+| **Team Name** | VERZSE |
 | **Track** | AI / Sustainability |
 | **Team Lead** | Pal Ghori |
 | **Members** | Pal Ghori |
