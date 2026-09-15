@@ -9,7 +9,7 @@
 | **Team Name** | VERZSE |
 | **Track** | AI / Sustainability |
 | **Team Lead** | Pal Ghori |
-| **Members** | Pal Ghori | Palasi Bhesadaiya | Riya Savaliya | Hanya Patel |
+| **Members** | Pal Ghori, Palasi Bhesadadiya, Hanya Patel, Riya Savaliya |
 
 ---
 
