@@ -1,7 +1,11 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import { Inter, Playfair_Display } from 'next/font/google'
 import AppShell from './components/AppShell'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
   title: 'GridGuard | Operations Command Center',
@@ -19,7 +23,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`antialiased ${inter.variable} ${playfair.variable}`}>
         <AppShell>
           {children}
         </AppShell>
